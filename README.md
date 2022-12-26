@@ -31,6 +31,8 @@ Execute the following command to install npm packages.
 
 
 
+
+
 ### Documentation
 
 #### Base URL
@@ -44,6 +46,41 @@ The Base URL for api is:
 The documentation below assumes you are prepending the Base URL to the endpoints in order to make requests.
 
 ##
+
+#### Users
+
+POST /users
+
+Request Body (application/json) - example
+
+    {
+        "name": "bekir",
+        "email": "bekir@gmail.com",
+        "password": "bekir123",
+        "password_confirmation": "bekir123"
+    }
+
+Response (application/json) - example
+
+    {
+        "name": "bekir",
+        "email": "bekir@gmail.com",
+        "password": "bekir123",
+        "password_confirmation": "bekir123"
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
